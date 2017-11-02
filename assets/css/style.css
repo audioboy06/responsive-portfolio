@@ -237,3 +237,38 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 100%;
+  }
+
+
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+  }
+  .sidebar {
+    max-width: 100%;
+    margin: 10px 10px 20px 10px;
+    
+  }
+  #connect {
+    float: left;
+  }
+
+}
+
+
+@media screen and (max-width: 640px) {
+.container {
+  width: 100%;
+}
+.sidebar {
+  max-width: 100%;
+}
+
+}
